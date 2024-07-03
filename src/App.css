@@ -1,0 +1,69 @@
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.left-pane {
+  width: 60px;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.icon {
+  margin: 10px 0;
+}
+
+.icon img {
+  width: 34px;
+  height: 34px;
+  cursor: pointer;
+}
+
+.editor {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.editor-content {
+  flex: 1;
+  padding: 10px;
+  background-color: #fff;
+  color: green;
+  font-family: monospace;
+  border: 1px solid #ccc;
+  cursor: text;
+}
+
+.output-pane {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.output-header {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.output-content {
+  flex: 1;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.elements{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.buttons{
+  display: flex;
+  height: 20px;
+}
